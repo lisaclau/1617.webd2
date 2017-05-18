@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+ul {
+    font-family: "Roboto";
+    font-size: 1.2em;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none; color: black; 
+    margin-top: 60px;
+    margin-bottom: 60px;
+    }
+
+li {
+    margin-bottom: 140px;
+}    
+
+p { font-family: "Roboto";
+
+}
+
+
+a:link, a:visited {
+    text-decoration: none; 
+    color: black;
+}
+
+#logo {
+    float: right;
+    width: 15% ;
+    height: 15%;
+    position: fixed; 
+    right: 0;
+    top:0; 
+}
+
+.nav {
+    display: block;
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    background: #F2F2F2;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    
+   }
+
+
+
+a:hover, a:active {
+    color: black;
+    border-bottom: black solid 1px;
+}
+
+
+.sf-grid__column-3 {
+text-align: center;
+
+
+}
+
+.galerij1 {
+    margin-top: 120px;
+    width:500px;
+    height:504px
+
+}
+
+.container {
+	max-width:450px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Roboto", Arial, Verdana, sans-serif; }
+
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:0px;
+	background:#F2F2F2;
+	margin:5 5 5px;
+	padding:10px;
+}
+
+
+#contact {
+	background:#F2F2F2;
+	padding:25px;
+	margin:50px 0;
+}
+
+fieldset {
+	border: medium none ;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+    resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background: white;
+	color:black;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	color: #FCDAF9;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	
+}
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:2px solid white;
+}
+
+#iframe {
+    position: absolute;
+  
+}
