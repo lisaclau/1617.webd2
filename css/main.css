@@ -35,10 +35,10 @@ a:link, a:visited {
 
 .nav {
     display: block;
-    width: 240px;
+    width: 300px;
     height: 100%;
     position: fixed;
-    background: #F2F2F2;
+    background: #F5F5F5;
     text-align: center;
     top: 0;
     bottom: 0;
@@ -46,25 +46,34 @@ a:link, a:visited {
    }
 
 
-
-a:hover, a:active {
+nav a:hover, a:active   {
     color: black;
     border-bottom: black solid 1px;
 }
 
 
-.sf-grid__column-3 {
-text-align: center;
 
 
+
+.krokodil {
+    margin-top: 0px;
+    width:360px;
+}
+.giraffe {
+    margin-top: 0px;
+    width:360px;
 }
 
-.galerij1 {
-    margin-top: 120px;
-    width:500px;
-    height:504px
-
+.safety
+{   margin-top: 0px;
+    width: 360px;
 }
+
+.sweatness
+{   margin-top: 0px;
+    width: 320px;
+}
+
 
 .container {
 	max-width:450px;
@@ -132,3 +141,50 @@ fieldset {
     position: absolute;
   
 }
+
+.footer_tekst{
+  text-decoration: none;
+  text-align: center;
+  position: relative;;
+  padding-top: 5%;
+  padding-bottom: 2%;
+
+}
+
+.roosvlak {
+   text-shadow: rgb(226, 226, 226) 1px 1px;
+}
+
+.fa:hover {
+    color: #FCDAF9;
+}
+.menu{
+    position: relative;
+    z-index: 3;
+
+}
+.centreren{
+    text-align: center;
+}
+.inhoudRechts{
+    min-height: 700px !important;
+    height: auto !important;
+}
+
+
+
+
+
+/*SLIDESHOW
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+

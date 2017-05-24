@@ -69,7 +69,7 @@ html {
 .sf-grid__container-fluid {
   max-width: 100%;
   margin: 0 auto;
-  padding-left: 1rem;
+  padding-left: 0rem;
   padding-right: 1rem;
   zoom: 1; }
   .sf-grid__container-fluid:before, .sf-grid__container-fluid:after {
@@ -83,7 +83,7 @@ html {
 .sf-grid__container {
   max-width: 71.25rem;
   margin: 0 auto;
-  padding-left: 0rem;
+  padding-left: 1rem;
   padding-right: 1rem;
   zoom: 1; }
   .sf-grid__container:before, .sf-grid__container:after {
