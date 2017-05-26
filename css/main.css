@@ -44,8 +44,6 @@ a:link, a:visited {
 
 #logo {
     float: left;
-    width: 15% ;
-    height: 15%;
     position: fixed; 
     left: 10px;
     top:10; 
