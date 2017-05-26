@@ -301,6 +301,7 @@ figure.foto:hover figcaption p {
 .footer {
     margin-top:150px;
     margin-bottom: 150px; 
+    margin-right: 50px;
 
 }
 
@@ -318,8 +319,6 @@ figure.foto:hover figcaption p {
 
 .subtext {
     font-size: 50%;
-    text-align: right;
-    margin-right: 50px;
    
 }
 
