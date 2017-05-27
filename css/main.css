@@ -33,10 +33,10 @@ span {
 
 ul {
     font-family: "Roboto";
-    font-size: 1.2em;
+    font-size: 100%;
     list-style: none;
     list-style-type: none;
-    text-decoration: none; color: black; 
+    text-decoration: none; 
    
     }
 
@@ -50,6 +50,7 @@ a:link, a:visited {
     position: fixed; 
     left: 10px;
     top:10; 
+    width: 100%;
 }
 
 
@@ -59,14 +60,13 @@ li {
 .nav {
 position: fixed;
 left: 0;
-width: 200px;
+width: 100%;
 height: 100%;
 margin-top: 200px;
 z-index: 0;
 }
 
 .nav ul li a {
-   font-size: 85%;
    display: block;
    padding: 0px 0px 5px 30px; 
    border-left: 5px solid transparent;
@@ -110,6 +110,10 @@ z-index: 0;
     width: 100%;
 }
 
+.olifant {
+    width: 100%;
+}
+
 /* OVER ONS */
 
 
@@ -117,6 +121,10 @@ z-index: 0;
     width: 100%;
 }
 
+.mac {
+   width:  100%;
+   margin-top: 180px;
+}
 
 
 /* DIENSTEN */
@@ -325,12 +333,12 @@ figure.foto:hover figcaption p {
 /* DETAILPAGINA */
  
 .detail {
-    width: 500px;
+    width: 100%;
 }
 
 
 .canvas {
-    width: 320px;
+    width: 100%;
     margin-top: 150px;
     
 }
