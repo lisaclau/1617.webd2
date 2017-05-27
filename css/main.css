@@ -129,6 +129,8 @@ z-index: 0;
 
 /* DIENSTEN */
 
+
+
 /* CONTACT */
 
 .container{
@@ -212,8 +214,7 @@ figure.foto {
   float: left;
   overflow: hidden;
   margin: 1%;
-  max-width: 360px;
-  max-height: 400px;
+
   width: 100%;
   text-align: center;
 }
