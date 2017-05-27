@@ -214,7 +214,6 @@ figure.foto {
   float: left;
   overflow: hidden;
   margin: 1%;
-
   width: 100%;
   text-align: center;
 }
@@ -290,8 +289,7 @@ figure.foto:hover figcaption p {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 500px;
-  height: 700px;
+  width: 100%;
   position: relative;
   margin:40px auto;
 
