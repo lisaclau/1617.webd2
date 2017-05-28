@@ -26,7 +26,9 @@
  }
 
 
-
+.float {
+    text-align: right;
+}
 .content {
 
     margin-top: 200px;
@@ -103,48 +105,25 @@ z-index: 0;
 /* PORTFOLIO foto's */
 
 
-.krokodil {
-    
-    width:100%;
-}
-.giraffe {
+.krokodil, .griaffe, .safety, .shaker, .fixo, .glazen, .gsm, .olifant, .boek, .envelope, .magazine, .mactwee, .kaart {
     
     width:100%;
 }
 
-.safety
-{  
-    width: 100%;
-}
 
-.sweatness
-{  
-    width: 100%;
-}
-
-.fixo {
-       
-    width: 100%;
-}
-
-.glazen {
-     
-    width: 100%;
-}
-
-.olifant {
-    width: 100%;
-}
 
 /* OVER ONS */
 
 
 .bureau {
     width: 100%;
+    padding-top: 80px;
+
 }
 
 .mac {
    width:  100%;
+    padding-top: 20px;
 }
 
 
@@ -325,6 +304,7 @@ figure.foto:hover figcaption p {
 
 
 
+
 /* FOOTER */
 
 .footer {
@@ -360,6 +340,6 @@ figure.foto:hover figcaption p {
 
 .canvas {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 15px;
     
 }
